@@ -1,7 +1,7 @@
 # Contributing
 
 > [!WARNING]
-> **PORIS is not open for contributions yet.** It is a skeleton shared with invited colleagues. Until phase 1 of the [roadmap](README.md#status-and-roadmap) is done, please send comments, not entries.
+> **PORIAS is not open for contributions yet.** It is a skeleton shared with invited colleagues. Until phase 1 of the [roadmap](README.md#status-and-roadmap) is done, please send comments, not entries.
 
 ## Now: comments from invited colleagues
 

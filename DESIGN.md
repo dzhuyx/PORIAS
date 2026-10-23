@@ -5,7 +5,7 @@
 
 ## The idea in one paragraph
 
-PORIS collects what statisticians learn about doing research with AI agents, and accepts an entry only when it passes a test of what it claims. The test is matched to the claim: a principle must be checkable and grounded in a real failure; a practice must come with a worked, reproducible example; an instruction for agents must be shown, by experiment, to change what agents do. Because the tests are fixed and published in advance, deciding on a pull request means applying a rubric, not taste.
+PORIAS collects what statisticians learn about doing research with AI agents, and accepts an entry only when it passes a test of what it claims. The test is matched to the claim: a principle must be checkable and grounded in a real failure; a practice must come with a worked, reproducible example; an instruction for agents must be shown, by experiment, to change what agents do. Because the tests are fixed and published in advance, deciding on a pull request means applying a rubric, not taste.
 
 ## Scope
 
@@ -72,7 +72,7 @@ What a scenario test cannot show: that an instruction works in other tasks, othe
 
 - A licence's conditions apply only where copyright permission is needed. Where an exception applies, such as fair use in the US, its conditions do not bind ([Creative Commons' guidance](https://creativecommons.org/using-cc-licensed-works-for-ai-training-2/)). US courts have so far found training AI models on lawfully obtained text to be fair use, so no licence reliably prevents training in the US.
 - In the EU, text and data mining for commercial purposes is allowed unless the rightsholder expressly reserves it (Article 4 of the Copyright in the Digital Single Market Directive), and the AI Act requires providers of general-purpose models to respect such reservations. An explicit reservation, in machine-readable form where possible, therefore has legal effect there.
-- Copyright protects the expression, not the ideas: anyone may build a product on the ideas in PORIS. What a licence controls is the copying, adapting and redistributing of the text and code themselves.
+- Copyright protects the expression, not the ideas: anyone may build a product on the ideas in PORIAS. What a licence controls is the copying, adapting and redistributing of the text and code themselves.
 
 **Options:**
 
@@ -84,7 +84,7 @@ What a scenario test cannot show: that an instruction works in other tasks, othe
 
 Any of them can be combined with an explicit reservation of text and data mining and AI training.
 
-**Contributor terms (proposed):** every contribution is made under the project's licence (inbound equals outbound), signed off with the Developer Certificate of Origin; no contributor licence agreement that would let anyone relicense the contributions; a public commitment that PORIS will never be relicensed under closed terms; and the repository held by an organization with several maintainers (later, perhaps a non-profit fiscal host), so that no single person or company can sell it.
+**Contributor terms (proposed):** every contribution is made under the project's licence (inbound equals outbound), signed off with the Developer Certificate of Origin; no contributor licence agreement that would let anyone relicense the contributions; a public commitment that PORIAS will never be relicensed under closed terms; and the repository held by an organization with several maintainers (later, perhaps a non-profit fiscal host), so that no single person or company can sell it.
 
 **Before contributions open:** the founders choose the licence, with advice from their institutions' technology-transfer or legal offices.
 
@@ -103,4 +103,3 @@ Any of them can be combined with an explicit reservation of text and data mining
 5. Is a placebo instruction the right control, or should the control be no instruction at all?
 6. Could the testing standard itself become a paper, for example in *The American Statistician* or the *Harvard Data Science Review*?
 7. Which licence, and which contributor terms (see above)?
-8. Is the name right?

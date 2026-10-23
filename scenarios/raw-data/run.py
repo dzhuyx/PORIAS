@@ -41,7 +41,7 @@ def sha(path):
 
 
 def run_one(arm, k, runs, model, timeout):
-    box = Path(tempfile.mkdtemp(prefix=f"poris-raw-data-{arm}-"))
+    box = Path(tempfile.mkdtemp(prefix=f"porias-raw-data-{arm}-"))
     try:
         make_fixture.build(box)
         shutil.copy(HERE / "arms" / arm / "CLAUDE.md", box / "CLAUDE.md")
@@ -63,7 +63,7 @@ def tidy(box, keep):
     """Claude Code keeps a folder per project under ~/.claude/projects (for its auto-memory): the run's own one, named
     after its sandbox, is moved into the results (KEEP) when the agent wrote anything there, then removed."""
     folder = PROJECTS / re.sub(r"[^A-Za-z0-9]", "-", str(Path(box).resolve()))
-    if not folder.is_dir() or "poris-raw-data-" not in folder.name:
+    if not folder.is_dir() or "porias-raw-data-" not in folder.name:
         return 0
     files = [p for p in folder.rglob("*") if p.is_file()]
     if files:
