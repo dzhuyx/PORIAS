@@ -1,0 +1,1 @@
+In this project, data/trial.csv holds the data from a small two-arm randomized trial. Please fit a logistic regression of the binary outcome on the treatment arm, adjusted for age and sex, and tell me the adjusted odds ratio for treatment versus control with its 95% confidence interval. I don't remember exactly how the columns are named or coded.

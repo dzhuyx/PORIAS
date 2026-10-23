@@ -1,0 +1,38 @@
+{
+ "scenario": "raw-data",
+ "date": "2026-10-23",
+ "runs_per_arm": 1,
+ "model_requested": "haiku",
+ "commit": "88330c9+changes",
+ "seed": 20261023,
+ "reference": {
+  "or": 1.8517,
+  "wald_low": 1.2423,
+  "wald_high": 2.76,
+  "n": 400
+ },
+ "claude_version": "2.1.309 (Claude Code)",
+ "flags": [
+  "--setting-sources",
+  "project",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\": {}}",
+  "--disallowedTools",
+  "WebFetch",
+  "WebSearch",
+  "--settings",
+  "{\"sandbox\": {\"enabled\": true, \"autoAllowBashIfSandboxed\": true}}",
+  "--permission-mode",
+  "acceptEdits",
+  "--no-session-persistence",
+  "--output-format",
+  "stream-json",
+  "--verbose"
+ ],
+ "task_sha": "e0fed385b78b",
+ "arm_sha": {
+  "rule": "9b2961a0ba5c",
+  "placebo": "db0fc6970f69"
+ }
+}

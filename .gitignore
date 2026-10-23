@@ -1,0 +1,7 @@
+# local state, never versioned
+.claude/
+.DS_Store
+__pycache__/
+*.pyc
+# a scenario's raw runs (full agent transcripts) stay local; their summary is versioned
+scenarios/*/results/*/runs/
